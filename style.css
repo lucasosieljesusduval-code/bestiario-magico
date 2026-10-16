@@ -1,0 +1,242 @@
+body {
+    background-color: #f5efdf;
+    color: #341283;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+     background-image: url("imagens/Gemini_Generated_Image_z4yso9z4yso9z4ys.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header p {
+    background-color: #e6e4f5;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px #193b7320;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
+    color: #7809f6;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    background-color: #e6e4f5;
+    border-radius: 40px;
+    font-size: 40px;
+    color: #193b73;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+main {
+    background-color: #e6e4f5;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px #193b7320;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+h2 {
+    background-color: #e6e4f5;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px #193b7320;
+    border-bottom: 1px solid #a9bbd6;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+a {
+    color: #2457a7;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+a:hover {
+    color: #713bb5;
+    transition: color 0.3s ease;
+}
+
+nav {
+    background-color: #d3dff0;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px #193b7320;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+}
+
+nav ul ul {
+    display: none;
+}
+
+
+
+nav li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: #d3dff0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #193b7320;
+}
+
+.tem-submenu > a::after {
+    content: " ▼";
+    font-size: 12px;
+    display: inline-block;
+    transition: transform 0.8s ease;
+}
+
+.tem-submenu:hover > a::after,.tem-submenu:focus-within > a::after {
+    transform: rotate(180deg);
+}
+
+nav li {
+    margin-bottom: 8px;
+}
+
+nav a:hover {
+    background-color: #bccde5;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+header img {
+    border-radius: 60px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 14px;
+    color: #526580;
+}
+
+.criatura-destaque {
+    width: 550px;
+    max-width: 100%;
+    min-width: 0;
+    text-align: center;
+}
+
+#Carrossel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 60px;
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+#Carrossel p {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+#Carrossel p#descricao-criatura, #nome-criatura {
+    background-color: #f7f5f5;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px #193b7320;
+    font-size: 18px;
+    margin-top: 8px;
+    color: #526580;
+}
+
+.carrossel-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#Carrossel button {
+    background-color: #2457a7;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 1.5s ease;
+}
+
+#Carrossel button:focus-visible {
+    outline: 4px solid #b51212;
+}
+
+#Carrossel button:hover {
+    background-color: #c91818;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato fieldset {
+    border: 1px solid #193b73;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato input,
+#contato select,
+#contato textarea {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #193b73;
+    font-size: 16px;
+    font: inherit;
+
+}
+
+#contato textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contato input:focus,
+#contato select:focus,
+#contato textarea:focus {
+    outline: 3px solid #2457a7;
+    outline-offset: 2px;
+}
