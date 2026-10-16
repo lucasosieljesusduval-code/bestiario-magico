@@ -4,19 +4,19 @@ const criaturas = [
         imagem: "imagens/Coelho-Voador.avif",
         nome: "Coelho Voador",
         descricao: "Pequeno mamífero com enormes orelhas que vive entre as árvores.",
-        pagina: "Coelho-Voador.html."
+        pagina: "Coelho-Voador.html"
     },
     {
         imagem: "imagens/Guardião de Madeira Sob a Lua Cheia.png",
         nome: "Urso-Cipó",
         descricao: "Protetor das florestas, conhecido por sua força e sabedoria.",
-        pagina: "Urso-Cipo.html."
+        pagina: "Urso-Cipo.html"
     },
     {
         imagem: "imagens/Peixe Anfíbio na Margem do Lago.png",
         nome: "Peixe Terrestre",
         descricao: "Um tipo raro de peixe que vive em ambientes terrestres.",
-        pagina: "Peixe-Terrestre.html."
+        pagina: "Peixe-Terrestre.html"
     }
 ];
 
